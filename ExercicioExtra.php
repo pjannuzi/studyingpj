@@ -3,7 +3,6 @@
 
 function staircase($n) {
 
-    $eita = ' ';
     for($i = 1; $i <= $n; $i++){
         for($space = 1; $space <= ($n-$i); $space++) {
             echo '&nbsp;';
@@ -14,8 +13,8 @@ function staircase($n) {
         echo "<br>";
     }
 }
-$cu = 40;
+$fn = 40;
 
-staircase($cu);
+staircase($fn);
 
 ?>
